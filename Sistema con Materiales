@@ -250,43 +250,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 	glPopMatrix();
 
-	/*
-	//	           ATOMO
-	// NUCLEO
-	glPushMatrix();
-	glRotatef(nucleo, 0.0, 1.0, 0.0);	//El nucleo gira sobre su eje
-	glColor3f(1.0, 0.0, 0.0);
-	glutSolidSphere(2, 12, 12);
-	glPushMatrix();
-	glTranslatef(-5.0, 0.0, 0.0);
-	glRotatef(proton1 + 40, 0.0, 1.0, 0.0);	//El nucleo gira sobre su eje
-	glColor3f(0.0, 0.0, 1.0);
-	glutSolidSphere(1, 12, 12);
-	glPopMatrix();
-	glPopMatrix();
-	glPushMatrix();
-	glRotatef(225.0, 0.0, 0.0, 1.0);
-	glRotatef(proton2, 1.0, 0.0, 0.0);	//El nucleo gira sobre su eje
-	glTranslatef(0.0, 5.0, 0.0);
-	glColor3f(0.0, 1.0, 0.0);
-	glutSolidSphere(1, 12, 12);
-	glPopMatrix();
-	glPushMatrix();
-	glRotatef(135.0, 0.0, 0.0, 1.0);
-	glRotatef(proton3 + 40, 1.0, 0.0, 0.0);	//El nucleo gira sobre su eje
-	glTranslatef(0.0, 5.0, 0.0);
-	glColor3f(1.0, 0.0, 0.0);
-	glutSolidSphere(1, 12, 12);
-	glPopMatrix();
-	glPushMatrix();
-	glRotatef(180.0, 0.0, 0.0, 1.0);
-	glRotatef(proton4, 1.0, 0.0, 0.0);	//El nucleo gira sobre su eje
-	glTranslatef(0.0, 5.0, 0.0);
-	glColor3f(1.0, 1.0, 0.0);
-	glutSolidSphere(1, 12, 12);
-	glPopMatrix();
-	*/
-
+	
 	glutSwapBuffers();
 
 }
