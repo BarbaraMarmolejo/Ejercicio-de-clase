@@ -275,13 +275,6 @@ void animacion()
 		urano = (urano + 5) % 360;
 		neptuno = (neptuno + 1) % 360;
 
-		/*
-		nucleo = (nucleo + 1) % 360;
-		proton1 = (proton1 + 10) % 360;
-		proton2 = (proton2 + 10) % 360;
-		proton3 = (proton3 + 10) % 360;
-		proton4 = (proton4 + 5) % 360;
-		*/
 		dwLastUpdateTime = dwCurrentTime;
 
 	}
